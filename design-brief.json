@@ -1,0 +1,52 @@
+{
+  "colors": {
+    "primary": "#b5451b",
+    "secondary": "#d97748",
+    "accent": "#2d6a4f",
+    "background": "#faf5f0",
+    "surface": "#f0e8de",
+    "text": "#2c1810",
+    "muted": "#8b6f5e"
+  },
+  "typography": {
+    "headingFont": "Bricolage Grotesque",
+    "bodyFont": "Karla",
+    "monoFont": "JetBrains Mono",
+    "scale": "spacious"
+  },
+  "spacing": "relaxed",
+  "borderRadius": "lg",
+  "shadows": "elevated",
+  "mood": "Sun-baked terracotta with stacked geometric warmth — grounded and honest",
+  "motionStyle": "moderate",
+  "layoutStyle": "stacked-overlap",
+  "designRules": [
+    "LAYOUT: Use overlapping card compositions with slight rotation (-1deg to 1deg) and warm-tinted shadows. Cards should layer on top of each other creating depth. Stagger grid heights. Split hero with text left, stacked stat cards right.",
+    "Terracotta and clay tones create a warm, trustworthy, grounded foundation",
+    "Green accent represents nature/growth — use for CTAs and success states",
+    "Stacked card layouts with slight overlaps create depth like layered earth",
+    "Warm-tinted shadows (slightly orange) tie shadows to the palette",
+    "Use generous padding and rounded corners for an approachable, friendly feel",
+    "Unit size cards stack with slight overlap shadows like layered clay tiles — warm depth between cards",
+    "Facility photo carousels use rounded frames with terracotta-tinted borders",
+    "CONVERSION: Facility pages use Layout Option C (hero units) — top 3-4 popular sizes as prominent stacked cards above the fold with Reserve buttons, then full availability table below. Unit finder in hero. On market pages, show starting price and availability per facility.",
+    "CONVERSION: Reserve/CTA buttons must be the single most visually prominent element on every page — larger than navigation links, higher contrast than body text, with hover state that increases visual weight. Use the primary color at full saturation. Every unit card and table row MUST have a Reserve button.",
+    "CONVERSION: Use badges to show real-time social proof and urgency — 'Most Popular' on the best-selling size, 'X Left!' in a warning color when availability is low, 'Available' in a success color for in-stock units. Price must be the largest text element in every unit card, displayed in the primary or accent color."
+  ],
+  "designPatterns": {
+    "card": "<div className=\"bg-surface rounded-2xl p-7 border border-primary/10 shadow-lg shadow-primary/5 hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1 transition-all\">",
+    "button": "<a className=\"bg-primary text-white font-bold px-8 py-3.5 rounded-xl text-base shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/35 hover:-translate-y-0.5 transition-all\">",
+    "buttonSecondary": "<a className=\"bg-accent text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-accent/90 transition-all\">",
+    "heading": "<h2 className=\"font-heading text-5xl md:text-6xl font-extrabold text-text tracking-tight leading-[0.92]\">",
+    "subheading": "<p className=\"text-xl text-text-muted leading-relaxed max-w-2xl\">",
+    "badge": "<span className=\"inline-flex items-center gap-2 bg-accent/10 text-accent font-semibold rounded-full px-4 py-1.5 text-sm\">",
+    "input": "<input className=\"w-full bg-white border-2 border-primary/15 rounded-xl px-5 py-3.5 text-text placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/40 transition\" />",
+    "sectionBg": "bg-background",
+    "sectionAltBg": "bg-surface",
+    "sectionDarkBg": "bg-primary text-white",
+    "navStyle": "bg-background/90 backdrop-blur-md border-b border-primary/10",
+    "footerStyle": "bg-surface border-t border-primary/10",
+    "iconBox": "<div className=\"h-14 w-14 rounded-2xl bg-primary/10 flex items-center justify-center text-primary\">",
+    "divider": "<div className=\"h-px bg-primary/10\">"
+  }
+}
